@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace RedBlackTree {
-    class RedBlackTree<T>: IEnumerable<T> where T: IComparable<T> {
+    public class RedBlackTree<T>: IEnumerable<T> where T: IComparable<T> {
         private IRedBlackNode<T> root = new NullTreeNode<T>();
 
         //Properties
