@@ -1,0 +1,1 @@
+A simple Red-Black tree implementation for educative purposes.
